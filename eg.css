@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  color: rgb(141, 245, 141);
+  background-color: black;
+}
+
+.h1 {
+  color: rgb(141, 245, 141);
+  margin: 0;
+}
+
+.img {
+  width: 30px;
+}
+
+.content {
+  text-align: center;
+  background-color: black;
+  /* padding: 20px; */
+  width: 100%;
+  display: flex;
+  padding-bottom: 20px;
+  /* margin-left: 10%; */
+}
+
+.title {
+  margin-left: 10%;
+}
+
+.git {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  color: #f1502f;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.github {
+  width: 50%;
+  align-items: center;
+  display: flex;
+  color: white;
+  border: 1px solid white;
+}
+
+.git-li {
+  margin-top: 50px;
+  margin-left: 10%;
+}
+
+.github-li {
+  margin-top: 50px;
+  margin-left: 10%;
+}
+
+.space {
+  line-height: 80px;
+}
+
+/* unwanted */
+.none{
+    color: #f1502f;
+}
